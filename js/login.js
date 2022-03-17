@@ -1,7 +1,6 @@
 var users = [
     { username: 'admin' }
   ];
-  
   var button = document.getElementById('login');
   
   button.onclick = function() {
