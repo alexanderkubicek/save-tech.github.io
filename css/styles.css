@@ -3,7 +3,7 @@
   --base-font: 1.6rem;
   --fw-normal: 400;
   --fw-bold: 700;
-  --img-bg: url("../assets/images/bg-desktop-dark.jpg");
+  --img-bg: linear-gradient(to right, #8c1e1e, #ffcc00);
   --clr-primary: hsl(0, 0%, 98%);
   --clr-white: hsl(0, 0%, 100%);
   --clr-page-bg: hsl(235, 21%, 11%);
@@ -23,7 +23,7 @@
 /* CHANGE CUSTOM PROPERTIES WHEN LIGHT THEME */
 
 body.light {
-  --img-bg: url("../assets/images/bg-desktop-light.jpg");
+  --img-bg: linear-gradient(to right, #1e248c, #c300ff);
   --clr-primary: hsl(243, 12%, 30%);
   --clr-page-bg: hsl(0, 0%, 98%);
   --clr-card-bg: hsl(0, 0%, 100%);
