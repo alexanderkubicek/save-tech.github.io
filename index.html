@@ -16,17 +16,50 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/stylelogin.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preload" href="./assets/images/icon-check.svg" as="image" type="image/svg+xml" crossorigin="anonymous">
   </head>
   <body>
-    <form>
-      <fieldset>
-          <label for="username">Prihlasovacie meno:</label>
-          <input id="username" type="text" placeholder="admin">
-          <button id="login" type="button">Prihlásiť</button>
-      </fieldset>
-   </form>
-    <script src="./js/login.js"></script>
+    <header class="card">
+      <h1>ÚLOHY</h1>
+      <button id="theme-switcher">
+        <img src="./assets/images/icon-sun.svg" alt="Change color theme" />
+      </button>
+    </header>
+    <main>
+      <div class="card add">
+        <div class="cb-container">
+          <button id="add-btn">+</button>
+        </div>
+        <div class="txt-container">
+          <label for="addt">Create todo</label>
+          <input
+            type="text"
+            class="txt-input"
+            placeholder="Pridať novú úlohu..."
+            spellcheck="false"
+            autocomplete="off"
+            id="addt"
+          />
+        </div>
+      </div>
+      <ul class="todos"></ul>
+      <div class="card stat">
+        <p class="corner">Počet úloh <span id="items-left">0</span></p>
+        <div class="filter">
+          <button id="all" class="on">Všetky</button>
+          <button id="active">Aktívne</button>
+          <button id="completed">Splnené</button>
+        </div>
+        <div class="corner">
+          <button id="clear-completed">Vymazať splnené</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- Info -->
+      <p>Pre zmenu poradia úloh stlač a potiahni úlohu, ktorú chceš premiestniť</p>
+    </footer>
+    <script src="./js/scripts.js"></script>
   </body>
 </html>
