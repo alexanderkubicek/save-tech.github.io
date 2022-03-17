@@ -9,7 +9,7 @@ var users = [
   
    for (var i = 0; i < users.length; i++) {
       if(username == users[i].username) {
-         window.location.href = 'file:///C:/Users/alexa/Documents/GitHub/alexanderkubicek.github.io/check-list.html';
+         window.location.href = 'https://alexanderkubicek.github.io/save-tech.github.io/check-list.html';
          break;
       }else{
          alert('You are trying to break in!');
