@@ -2,31 +2,24 @@
 <html>
     <head>
         <link rel="icon" href="images/icon.ico">
-        <title>Portfólio | Alexander Kubíček</title>
+        <title>Save-Tech | Check-List</title>
     
         <meta charset="utf-8">
-        <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     </head>
     <body>
         <nav>
-            <div class="logo">
-                <h4>Názov</h4>
+
+                <h1>Save-Tech | Check-List</h1>
+            
+            <div id="myDIV" class="header">
+              <input type="text" id="myInput" placeholder="Text...">
+              <span onclick="newElement()" class="addBtn">Pridať</span>
             </div>
-            <ul class="nav-links">
-                <li><a href="#">Link1</a></li>
-                <li><a href="#">Link2</a></li>
-                <li><a href="#">Link3</a></li>
-                <li><a href="#">Link4</a></li>
+            
+            <ul id="myUL">
             </ul>
-            <div class="menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </nav>
-        <script src="app.js"></script>
+            <script src="checklist.js"></script>
     </body>
 </html>
